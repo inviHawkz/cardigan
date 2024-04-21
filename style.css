@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --size: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* var1 */
+    /* --background-color: #ad6a4a;
+    --color-1: #ffe2b0;
+    --color-2: #522a0c;
+    --color-3: #f79e55; */
+    /* var2 */
+    /* --background-color: white;
+    --color-1: #d5a794;
+    --color-2: #5f4f36;
+    --color-3: #af6642; */
+    /* var3 */
+    --background-color: white;
+    --color-1: #feecd5;
+    --color-2: #f3779c;
+    --color-3: #f9d2e4;
+}
+
+.color-select {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.header {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+
+.text {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.back-panel,
+.front-panel,
+.sleeves-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.back-panel > div,
+.front-panel > div,
+.sleeves-panel > div {
+    display: flex;
+}
+
+.front-panel-1,
+.front-panel-2,
+.sleeves-panel-1,
+.sleeves-panel-2 {
+    display: flex;
+}
+
+.front-panel-1,
+.sleeves-panel-1 {
+    padding-right: 100px;
+}
+
+.square {
+    width: var(--size);
+    height: var(--size);
+    background-color: white;
+    margin: 4px 2px;
+    border-radius: 1px;
+}
+
+.color-1 {
+    background-color: var(--color-1);
+}
+
+.color-2 {
+    background-color: var(--color-2);
+}
+
+.color-3 {
+    background-color: var(--color-3);
+}
